@@ -1,5 +1,5 @@
 <?php
-namespace SMSSender\Senders;
+namespace bright\SMS_Sender\Senders;
 require_once dirname(__FILE__).'/SenderInterface.php';
 
 class SendCloud implements SenderInterface

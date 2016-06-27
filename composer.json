@@ -1,0 +1,22 @@
+{
+    "name": "bright-tech/SMS-Sender",
+    "description": "短信发送接口",
+    "type": "php-lib",
+    "keywords": ["php","sms"],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "BrightTech",
+            "email": "xiao.yanqi@bright-tech.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "bright\\SMS_Sender\\": "lib"
+        }
+    }
+}

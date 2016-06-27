@@ -1,5 +1,5 @@
 {
-    "name": "bright-tech/SMS-Sender",
+    "name": "bright-tech/sms-sender",
     "description": "短信发送接口",
     "type": "php-lib",
     "keywords": ["php","sms"],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bright\\SMS_Sender\\": "lib"
+            "bright\\sms_sender\\": "lib"
         }
     }
 }

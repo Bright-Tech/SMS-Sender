@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__FILE__).'/../lib/SenderFactory.php';
-use bright\SMS_Sender\SenderFactory;
+use bright\sms_sender\SenderFactory;
 
 $param = array(
     'templateId' => '1581', //模板ID

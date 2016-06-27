@@ -1,5 +1,5 @@
 <?php
-namespace bright\SMS_Sender\Senders;
+namespace bright\sms_sender\senders;
 interface SenderInterface
 {
     /**

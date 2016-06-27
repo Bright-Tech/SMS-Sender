@@ -1,11 +1,11 @@
 <?php
-namespace bright\SMS_Sender;
-require_once dirname(__FILE__).'/Senders/SendCloud.php';;
+namespace bright\sms_sender;
+require_once dirname(__FILE__).'/senders/SendCloud.php';;
 
 
 class SenderFactory
 {
-    const SENDER_SENDCLOUD = '\bright\SMS_Sender\Senders\SendCloud';
+    const SENDER_SENDCLOUD = '\bright\sms_sender\senders\SendCloud';
     public static function getSender( $senderClass, $param){
         $sender = new $senderClass($param);
         return $sender;

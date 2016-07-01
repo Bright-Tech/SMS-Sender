@@ -2,7 +2,7 @@
 namespace bright\sms_sender\senders;
 require_once dirname(__FILE__).'/SenderInterface.php';
 
-class SendCloud implements SenderInterface
+class SendCloud implements SMSSenderInterface
 {
     public static $ApiEndpoint =  'http://sendcloud.sohu.com/smsapi/send';
     public static $SMSUser = '';

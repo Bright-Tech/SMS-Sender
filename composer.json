@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bright\\sms_sender\\": "lib"
+        	"bright_tech\\sms_sender\\": "src/"
         }
     }
 }

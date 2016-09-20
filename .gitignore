@@ -1,76 +1,38 @@
-#################
-## Eclipse
-#################
+# yii console command
+/yii
 
-*.pydevproject
-.project
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
+# phpstorm project files
+.idea
 
-# External tool builders
-.externalToolBuilders/
+# netbeans project files
+nbproject
 
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
+# zend studio for eclipse project files
 .buildpath
+.project
+.settings
 
-#############
-## Windows detritus
-#############
-
-# Windows image file caches
+# windows thumbnail cache
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# composer vendor dir
+/vendor
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# composer itself is not needed
+composer.phar
 
-# Mac crap
+# Mac DS_Store Files
 .DS_Store
-.com.apple.timemachine.supported
 
-#############
-## Composer
-#############
-vendor
-composer.lock
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
 
-#############
-## Zend Frameworks
-#############
-INSTALL.txt
-LICENSE.txt
-README.txt
-demos/
-public/asserts
-extras/documentation
+# vagrant runtime
+/.vagrant
 
-#############
-## Yii2 Frameworks
-#############
-
-#############
-## Laravel
-#############
-/node_modules
-Homestead.yaml
-Homestead.json
-.env
-_ide_helper.php
+# codeception generated files
+common/tests/_support/_generated/*
+frontend/tests/_support/_generated/*
+backend/tests/_support/_generated/*

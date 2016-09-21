@@ -1,6 +1,6 @@
 <?php
-namespace bright\sms_sender;
-require_once dirname(__FILE__).'/senders/SendCloud.php';;
+namespace bright_tech\sms_sender;
+
 
 
 class SMSSenderFactory

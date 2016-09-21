@@ -1,5 +1,7 @@
 <?php
-require_once dirname(__FILE__).'/../lib/SenderFactory.php';
+require_once dirname(__FILE__).'/../src/senders/SMSSenderInterface.php';
+require_once dirname(__FILE__).'/../src/senders/SendCloud.php';;
+require_once dirname(__FILE__).'/../src/SMSSenderFactory.php';
 use bright\sms_sender\SMSSenderFactory;
 
 $param = array(
